@@ -59,13 +59,12 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "wallet": {
-      "via": "user",
-      "model": "wallet"
-    },
     "order": {
       "via": "user",
       "model": "order"
+    },
+    "balance": {
+      "type": "decimal"
     }
   }
 }

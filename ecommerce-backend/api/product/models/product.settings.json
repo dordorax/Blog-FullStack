@@ -43,7 +43,7 @@
       "via": "products"
     },
     "orders": {
-      "via": "products",
+      "via": "product",
       "collection": "order"
     }
   }
