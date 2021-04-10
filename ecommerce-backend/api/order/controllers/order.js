@@ -23,7 +23,7 @@ module.exports = {
         const wallet = ctx.state.user.balance;
         const total_price = product.price * amount;
 
-        if(product != null && wallet <= total_price){
+        if(product != null && wallet >= total_price){
             try{
                 const order = await strapi.query('Order').create({
                     city,
